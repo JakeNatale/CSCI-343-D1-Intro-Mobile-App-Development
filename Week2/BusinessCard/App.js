@@ -9,23 +9,23 @@ export default function App() {
         <View style={styles.imageContainer}>
           <Image
             style={styles.image}
-            source={require("./assets/Images/business_image.jpg")}
+            source={require("./assets/Images/me_image.jpg")}
           />
         </View>
         <View style={styles.textContainer}>
-          <Text style={styles.name}>Player's Choice</Text>
+          <Text style={styles.name}>Jake Natale</Text>
           <Text style={styles.text}
-          onPress={ () => {Linking.openURL("https://www.playerschoicenmb.com");
+          onPress={ () => {Linking.openURL("mailto:janatale@coastal.edu");
           } }
-          >www.playerschoicenmb.com</Text>
+          >janatale@coastal.edu</Text>
           <Text style={styles.text}
-          onPress={ () => {Linking.openURL("tel:8432720268");
+          onPress={ () => {Linking.openURL("tel:2014789513");
           } }
-          >843-272-0268</Text>
+          >201-478-9513</Text>
           <Text style={styles.text}
-          onPress={ () => {Linking.openURL("https://maps.app.goo.gl/dD3s1W9URZE27x8W8");
+          onPress={ () => {Linking.openURL("https://github.com/JakeNatale/CSCI-343-D1-Intro-Mobile-App-Development");
           } }
-          >Open in Google Maps</Text>
+          >Link to GitHub</Text>
         </View>
       </SafeAreaView>
     </>
@@ -42,18 +42,18 @@ const styles = StyleSheet.create({
   imageContainer: {
     flex: 1,
     justifyContent: "center",
-    marginTop: 100,
+    marginTop: 60,
     width: "100%"
   },
   image: {
-    height: 200,
+    height: 300,
     width: "100%",
     resizeMode: "cover",
     borderColor: "black",
     borderWidth: 5
   },
   textContainer: {
-    flex: 2,
+    flex: 1.5,
     width: "100%",
     alignItems: "center",
   },
