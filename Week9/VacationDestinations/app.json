@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "VacationDestinations",
+    "slug": "VacationDestinations",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/Vacations-splash.jpg",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/Vacations-splash.jpg",
+      "resizeMode": "contian",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/Vacations-splash.jpg",
+        "backgroundImage": "./assets/images/Vacations-splash.jpg",
+        "monochromeImage": "./assets/images/Vacations-splash.jpg"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/Vacations-splash.jpg"
+    }
+  }
+}
