@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "NewsApp",
+    "slug": "NewsApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/newsSplash.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/newsSplash.jpg",
+      "resizeMode": "cover",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/newsSplash.jpg",
+        "backgroundImage": "./assets/images/newsSplash.jpg",
+        "monochromeImage": "./assets/images/newsSplash.jpg"
+      }
+    },
+    "web": {
+      "favicon": "./assets/newsSplash.jpg"
+    }
+  }
+}
